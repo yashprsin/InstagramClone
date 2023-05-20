@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <!-- Top Toolbar  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reliLayout1">
+
+
+        <include
+            layout="@layout/layout_top_tabs"/>
+
+    </RelativeLayout>
+    <!-- Middle Section  -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/reliLayout2"
+        android:layout_below="@+id/reliLayout1">
+
+    </RelativeLayout>
+    <!-- Bottom Navigation's -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
